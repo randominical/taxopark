@@ -30,6 +30,7 @@ body {
 
 .wrapper {
   max-width: 1920px;
+  min-width: 280px;
   margin: 0 auto; }
   .wrapper_main {
     min-height: 100%;
