@@ -75,6 +75,7 @@ body {
   position: fixed;
   top: 0;
   left: 0;
+  opacity: 0;
   z-index: 10; }
   .header .container {
     display: -webkit-box;
@@ -149,6 +150,15 @@ body {
   @media (max-width: 1500px) {
     .header__tel {
       display: none; } }
+  @media (min-width: 768px) {
+    .header {
+      -webkit-transition: all .5s ease-out;
+      transition: all .5s ease-out; }
+      .header._active {
+        opacity: 1; } }
+  @media (max-width: 767px) {
+    .header {
+      opacity: 1; } }
 
 .logo-header__link {
   width: 100%;
