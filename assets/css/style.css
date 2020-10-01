@@ -152,14 +152,10 @@ body {
   @media (min-width: 768px) {
     .header {
       opacity: 0;
-      -ms-opacity: 1;
       -webkit-transition: all .5s ease-out;
       transition: all .5s ease-out; }
       .header._active {
         opacity: 1; } }
-  @media (max-width: 767px) {
-    .header {
-      opacity: 1; } }
 
 .logo-header__link {
   width: 100%;
@@ -374,11 +370,9 @@ body {
     .about__title, .about__subtitle, .about__pic {
       -webkit-transform: translate(-100%, 0);
               transform: translate(-100%, 0);
-      -ms-transform: translate(0, 0);
       -webkit-transition: all .8s ease-out;
       transition: all .8s ease-out;
-      opacity: 0;
-      -ms-opacity: 1; }
+      opacity: 0; }
       .about__title._active, .about__subtitle._active, .about__pic._active {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -556,20 +550,17 @@ body {
   @media (min-width: 768px) and (max-width: 1200px) {
     .who__pic, .who__title, .who__subtitle, .who__li {
       -webkit-transform: translate(-100%, 0);
-              transform: translate(-100%, 0);
-      -ms-transform: translate(0, 0); }
+              transform: translate(-100%, 0); }
       .who__pic._active, .who__title._active, .who__subtitle._active, .who__li._active {
         -webkit-transform: translate(0, 0);
                 transform: translate(0, 0); } }
   @media (min-width: 768px) {
     .who__pic {
       -webkit-transform: translate(-100%, 0);
-              transform: translate(-100%, 0);
-      -ms-transform: translate(0, 0); }
+              transform: translate(-100%, 0); }
     .who__title, .who__subtitle, .who__li {
       -webkit-transform: translate(100%, 0);
-              transform: translate(100%, 0);
-      -ms-transform: translate(0, 0); }
+              transform: translate(100%, 0); }
     .who__pic, .who__title, .who__subtitle, .who__li {
       -webkit-transition: all .5s ease-out;
       transition: all .5s ease-out; }
@@ -592,8 +583,7 @@ body {
       -webkit-transition-delay: 1s;
               transition-delay: 1s; }
     .who__pic, .who__title, .who__subtitle, .who__li, .who__logo {
-      opacity: 0;
-      -ms-opacity: 1; }
+      opacity: 0; }
       .who__pic._active, .who__title._active, .who__subtitle._active, .who__li._active, .who__logo._active {
         opacity: 1;
         -webkit-transform: translate(0, 0);
@@ -851,29 +841,25 @@ body {
   @media (min-width: 768px) {
     .benefits__title, .benefits__text, .benefits__pic, .benefits__pic_f {
       opacity: 0;
-      -ms-opacity: 1;
       -webkit-transition: all .8s ease-out;
       transition: all .8s ease-out; }
       .benefits__title._active, .benefits__text._active, .benefits__pic._active, .benefits__pic_f._active {
         opacity: 1; }
     .benefits__title {
       -webkit-transform: translate(0, 100%);
-              transform: translate(0, 100%);
-      -ms-transform: translate(0, 0); }
+              transform: translate(0, 100%); }
       .benefits__title._active {
         -webkit-transform: translate(0, 0);
                 transform: translate(0, 0); }
     .column_left .benefits__text {
       -webkit-transform: translate(-100%, 0);
-              transform: translate(-100%, 0);
-      -ms-transform: translate(0, 0); }
+              transform: translate(-100%, 0); }
       .column_left .benefits__text._active {
         -webkit-transform: translate(0, 0);
                 transform: translate(0, 0); }
     .column_right .benefits__text {
       -webkit-transform: translate(100%, 0);
-              transform: translate(100%, 0);
-      -ms-transform: translate(0, 0); }
+              transform: translate(100%, 0); }
       .column_right .benefits__text._active {
         -webkit-transform: translate(0, 0);
                 transform: translate(0, 0); } }
