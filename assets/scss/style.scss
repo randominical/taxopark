@@ -182,7 +182,6 @@ body {
     }
     @media (min-width: 768px) {
         opacity: 0;
-        -ms-opacity: 1;
         transition: all .5s ease-out;
         &._active {
             opacity: 1;
@@ -439,10 +438,8 @@ body {
     @media (min-width: 768px) {
         &__title, &__subtitle, &__pic {
             transform: translate(-100%, 0);
-            -ms-transform: translate(0, 0);
             transition: all .8s ease-out;
             opacity: 0;
-            -ms-opacity: 1;
             &._active {
                 opacity: 1;
                 transform: translate(0, 0);
@@ -639,7 +636,6 @@ body {
     @media (min-width: 768px) and (max-width: 1200px) {
         &__pic, &__title, &__subtitle, &__li {
             transform: translate(-100%, 0);
-            -ms-transform: translate(0, 0);
             &._active {
                 transform: translate(0, 0);
             }
@@ -648,11 +644,9 @@ body {
     @media (min-width: 768px) {
         &__pic {
             transform: translate(-100%, 0);
-            -ms-transform: translate(0, 0);
         }
         &__title, &__subtitle, &__li {
             transform: translate(100%, 0);
-            -ms-transform: translate(0, 0);
         }
         &__pic, &__title, &__subtitle, &__li {
             transition: all .5s ease-out;
@@ -679,7 +673,6 @@ body {
         }
         &__pic, &__title, &__subtitle, &__li, &__logo {
             opacity: 0;
-            -ms-opacity: 1;
             &._active {
                 opacity: 1;
                 transform: translate(0, 0);
@@ -996,7 +989,6 @@ body {
     @media (min-width: 768px) {
         &__title, &__text, &__pic, &__pic_f {
             opacity: 0;
-            -ms-opacity: 1;
             transition: all .8s ease-out;
             &._active {
                 opacity: 1;
@@ -1004,21 +996,18 @@ body {
         }
         &__title {
             transform: translate(0, 100%);
-            -ms-transform: translate(0, 0);
             &._active {
                 transform: translate(0, 0);
             }
         }
         .column_left &__text {
             transform: translate(-100%, 0);
-            -ms-transform: translate(0, 0);
             &._active {
                 transform: translate(0, 0);
             }
         }
         .column_right &__text {
             transform: translate(100%, 0);
-            -ms-transform: translate(0, 0);
             &._active {
                 transform: translate(0, 0);
             }
