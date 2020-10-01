@@ -7,15 +7,15 @@ $(document).ready(function(){
   });
 });
 
-$('.header__burger').click(function(event) {
+$('.menu__icon').click(function(event) {
   $(this).toggleClass('active');
-  $('.header__menu').toggleClass('active');
+  $('.menu__body').toggleClass('active');
   $('body').toggleClass('lock');
 })
 
-$('.header__link').click(function(event) {
-  $('.header__burger').removeClass('active');
-  $('.header__menu').removeClass('active');
+$('.menu__link').click(function(event) {
+  $('.menu__icon').removeClass('active');
+  $('.menu__body').removeClass('active');
   $('body').removeClass('lock');
 })
 
