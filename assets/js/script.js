@@ -19,10 +19,6 @@ $('.menu__link, .header__logo').click(function(event) {
   $('body').removeClass('lock');
 })
 //==============
-var vhHeight = $("body").height();
-var chromeNavbarHeight = vhHeight - window.innerHeight;
-$('body').css({ height: window.innerHeight, marginTop: chromeNavbarHeight });
-//==============
 //линии
 function widthFunc(){
   var lineWidth = $(".benefits__box").outerWidth() + 'px';
