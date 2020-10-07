@@ -1,3 +1,10 @@
+let vh = window.innerHeight * 0.01;
+let w = window.innerWidth;
+if (w <= 768) {
+  document.documentElement.style.setProperty('--vh', `${vh}px`);
+}
+
+
 $(document).ready(function(){
   $('.header__menu, .header__logo, .question, .discount__bottom').on("click","a", function (event) {
       event.preventDefault();

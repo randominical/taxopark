@@ -319,7 +319,7 @@ body {
 .about {
   padding: 172px 0 50px 0;
   position: relative;
-  height: 100vh;
+  height: calc(var(--vh, 1vh) * 100);
   min-height: 790px;
   max-height: 1340px;
   text-transform: uppercase;
@@ -358,7 +358,7 @@ body {
       min-height: 690px; } }
   @media (max-width: 1199px) {
     .about {
-      min-height: 570px; } }
+      min-height: 590px; } }
   @media (min-width: 768px) {
     .about__title, .about__subtitle, .about__pic {
       -webkit-transform: translate(-100%, 0);
