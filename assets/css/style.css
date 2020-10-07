@@ -356,13 +356,6 @@ body {
     .about {
       padding: 120px 0 30px 0;
       min-height: 690px; } }
-  @media (max-width: 1199px) and (min-width: 768px) and (min-height: 1001px) {
-    .about .container {
-      -webkit-box-pack: justify;
-          -ms-flex-pack: justify;
-              justify-content: space-between; }
-    .about__text {
-      margin: 40vh 0 0 0; } }
   @media (max-width: 1199px) {
     .about {
       min-height: 570px; } }

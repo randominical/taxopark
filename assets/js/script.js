@@ -18,7 +18,10 @@ $('.menu__link, .header__logo').click(function(event) {
   $('.menu__body').removeClass('active');
   $('body').removeClass('lock');
 })
-
+//==============
+var vhHeight = $("body").height();
+var chromeNavbarHeight = vhHeight - window.innerHeight;
+$('body').css({ height: window.innerHeight, marginTop: chromeNavbarHeight });
 //==============
 //линии
 function widthFunc(){
