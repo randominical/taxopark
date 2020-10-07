@@ -317,6 +317,7 @@ body {
       font-size: 22px; } }
 
 .about {
+  background: white;
   padding: 172px 0 50px 0;
   position: relative;
   height: calc(var(--vh, 1vh) * 100);
