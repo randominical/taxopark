@@ -379,7 +379,8 @@ body {
   @media (max-width: 767px) {
     .about {
       min-height: 550px;
-      max-height: 830px; } }
+      max-height: 830px;
+      margin-bottom: 70px; } }
   @media (max-width: 500px) {
     .about__title h1 {
       font-size: 38px;
